@@ -850,6 +850,11 @@ section #title .credits.right {
   }
 }
 
+.wrapper {
+  background-image:url("../images/contrast_for_text.png");
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
 .top_pic {
   background-image:url("../images/first_snow.png");
   background-repeat: no-repeat;
