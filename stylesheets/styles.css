@@ -850,21 +850,32 @@ section #title .credits.right {
   }
 }
 
-.wrapper {
+.text_backdrop {
   background-image:url("../images/contrast_for_text.png");
-  margin-top: 12px;
-  margin-bottom: 12px;
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.top_pic {
-  background-image:url("../images/first_snow.png");
+
+.standize-background {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment:  fixed;
+  height: 50em;
+}
+
+.top_pic {
+  background-image:url("../images/first_snow.png");
+}
+
+.middle_pic {
+  background-image:url("../images/boatyard.png");
 }
 
 .bottom_pic {
-  background-image:url("../images/boatyard.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment:  fixed;
+  background-image:url("../images/display.png");
+}
+
+.wrapper {
+  top: 90px;
 }
