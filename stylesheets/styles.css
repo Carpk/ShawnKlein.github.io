@@ -857,10 +857,11 @@ section #title .credits.right {
   margin-bottom: auto;
 }
 
-.standize-background {
+.standardized-background {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment:  fixed;
+  /*height: 100%;*/
   height: 50em;
 }
 
