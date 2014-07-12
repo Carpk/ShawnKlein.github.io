@@ -529,7 +529,7 @@ table {
 }
 
 body {
-  padding: 0px 0 20px 0px;
+  /*padding: 0px 0 20px 0px;*/
   margin: 0px;
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
@@ -859,9 +859,9 @@ section #title .credits.right {
 
 .standardized-background {
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment:  fixed;
-  /*height: 100%;*/
+  min-height: 200px;
   height: 50em;
 }
 
