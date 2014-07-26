@@ -880,3 +880,7 @@ section #title .credits.right {
 .wrapper {
   top: 11em;
 }
+
+.link_spacing {
+  margin-right: 10em;
+}
