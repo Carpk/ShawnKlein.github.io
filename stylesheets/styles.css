@@ -884,3 +884,7 @@ section #title .credits.right {
 .link_spacing {
   margin-right: 10em;
 }
+
+.main_pic {
+  background-image:url("../images/main_pic.png");
+}
