@@ -853,8 +853,8 @@ section #title .credits.right {
 .text_backdrop {
   background-image:url("../images/contrast_for_text.png");
   padding: 20px;
-  margin-top: auto;
-  margin-bottom: auto;
+/*  margin-top: auto;
+  margin-bottom: auto;*/
 }
 
 .standardized-background {
@@ -887,4 +887,10 @@ section #title .credits.right {
 
 .main_pic {
   background-image:url("../images/main_pic.png");
+}
+
+.main_box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
