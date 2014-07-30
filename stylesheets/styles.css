@@ -885,12 +885,10 @@ section #title .credits.right {
   margin-right: 10em;
 }
 
-.main_pic {
-  background-image:url("../images/main_pic.png");
+.white_out {
+  background: white;
 }
 
 .main_box {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+
 }
