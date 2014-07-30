@@ -889,6 +889,14 @@ section #title .credits.right {
   background: white;
 }
 
-.main_box {
+.header {
+  position: fixed;
+  background: white;
+  height: 50px;
+  width: 100%;
+  border-bottom: thin solid #373737;
+}
 
+.logo_pic {
+  background-image:url("../images/sk_logo.png");
 }
