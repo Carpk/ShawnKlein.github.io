@@ -912,3 +912,7 @@ section #title .credits.right {
   margin-right: 10px;
   float: left;
 }
+
+a {
+  color: #FF5F5F;
+}
