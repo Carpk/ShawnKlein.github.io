@@ -889,6 +889,10 @@ section #title .credits.right {
   background: white;
 }
 
+.light_text {
+  color: grey;
+}
+
 .header {
   position: fixed;
   background: white;
@@ -897,6 +901,14 @@ section #title .credits.right {
   border-bottom: thin solid #373737;
 }
 
-.logo_pic {
-  /*background-image:url("../images/sk_logo.png");*/
+.header_links_box {
+  float: right;
+  width: 30%;
+}
+
+.header_links {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+  float: left;
 }
