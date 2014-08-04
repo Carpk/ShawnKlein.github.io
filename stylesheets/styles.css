@@ -906,6 +906,10 @@ section #title .credits.right {
   width: 30%;
 }
 
+.image_box {
+  width: 25%;
+}
+
 .header_links {
   font-size: 23px;
   margin-top: 7px;
