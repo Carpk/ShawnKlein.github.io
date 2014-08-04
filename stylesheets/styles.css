@@ -907,7 +907,12 @@ section #title .credits.right {
 }
 
 .image_box {
-  width: 25%;
+  float: left;
+  width: 20%;
+}
+
+.image_position {
+  float: right;
 }
 
 .header_links {
