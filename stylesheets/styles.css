@@ -683,7 +683,7 @@ td {
 hr {
   border: 0;
   outline: none;
-  height: 3px;
+  height: 1px;
   background: transparent url("../images/hr.gif") center center repeat-x;
   margin: 0 0 20px;
 }
@@ -916,8 +916,8 @@ section #title .credits.right {
 }
 
 .header_links {
-  font-size: 23px;
-  margin-top: 7px;
+  font-size: 18px;
+  margin-top: 10px;
   margin-right: 14px;
   float: left;
 }
