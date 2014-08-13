@@ -1,3 +1,5 @@
-# [carpk.github.io](http://carpk.github.io/)
+# Shawn Klein
 
-Hello, this is my personal github page. I thought it would be nice to have something simple about me while I try to build something a little more elaborate on my regular site.
+I am always working on this site, trying something new or different. Its to contain basic info on me and what I like to do, some media links. [ShawnKlein.net](http://carpk.github.io/)
+
+
