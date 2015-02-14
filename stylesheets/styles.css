@@ -889,7 +889,7 @@ section #title .credits.right {
 }
 
 .light_text {
-  color: grey;
+  color: #6e6e6e;
 }
 
 .header {
@@ -924,6 +924,7 @@ section #title .credits.right {
 
 a {
   color: #FF5F5F;
+  /*color: #719667;*/
 }
 
 a:hover {
