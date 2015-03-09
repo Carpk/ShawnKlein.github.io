@@ -934,3 +934,14 @@ a:hover {
 .green {
   color: #497A49;
 }
+
+
+.img-parent {
+  position: relative;
+}
+
+.ruby-img {
+  position: absolute;
+  bottom: 3em;
+  left: 75%;
+}
