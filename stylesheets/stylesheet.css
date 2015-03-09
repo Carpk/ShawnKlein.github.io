@@ -382,5 +382,6 @@ footer a:hover {
 .ruby-img {
   position: absolute;
   bottom: 0em;
-  left: 75%;
+  left: 73%;
+  height: 8em;
 }
