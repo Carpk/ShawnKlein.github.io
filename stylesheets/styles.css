@@ -942,6 +942,9 @@ a:hover {
 
 .ruby-img {
   position: absolute;
-  bottom: 3em;
-  left: 75%;
+  bottom: 0em;
+  left: 73%;
+  height: 8em;
 }
+
+ /*adjust stylesheets here*/

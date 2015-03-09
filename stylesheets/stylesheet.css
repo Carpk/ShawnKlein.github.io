@@ -375,13 +375,3 @@ footer a:hover {
   height: 100%;
 }
 
-.img-parent {
-  position: relative;
-}
-
-.ruby-img {
-  position: absolute;
-  bottom: 0em;
-  left: 73%;
-  height: 8em;
-}
