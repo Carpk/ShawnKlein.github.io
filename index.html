@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Shawn Klein | Web Developer</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <script src="javascripts/bootstrap.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -20,90 +20,105 @@
   </head>
   <body>
 
-    <div class="header">
-      <div class="image_box">
-        <a href="#welcome">
-          <img class="image_position" src="/images/sk_logo.png" height="48"></img>
-        </a>
-      </div>
+    <div class="container-fluid">
 
-      <div class="header_links_box">
-        <a class="header_links" href="#projects">Projects</a>
-        <a class="header_links" href="#about">About</a>
-        <a class="header_links" href="#contact">Contact</a>
-      </div>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#welcome">
+              <img class="" src="/images/sk_logo.png" height="48"></img>
+            </a>
+          </div>
+          <div>
+            <ul class="nav navbar-nav">
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     </div>
 
-    <div class="white_out standardized-background">
+
+    <div class="container-fluid sectioned">
       <a id="welcome"> </a>
       <div class="wrapper">
-        <div class='light_text main_box'>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
           <div id="title">
             <h1>Shawn Klein</h1>
             <hr>
           </div>
           <h3>
-            <a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link">
+            <a name="welcome" href="#welcome"><span class="octicon octicon-link">
               Welcome</span></a>
           </h3>
           <p>
             I'm a Ruby on Rails web developer, currently looking for employment in the Chicago area. Feel free to <a href="mailto:Contact@ShawnKlein.net">contact me</a> for your next project.
           </p>
         </div>
+        <div class="col-sm-3"></div>
       </div>
     </div>
 
-    <div class="white_out standardized-background">
+    <div class="container-fluid sectioned">
       <a id="projects"> </a>
       <div class="wrapper">
-        <div class='light_text main_box'>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
           <h3>
-            <a href="#projects"><span class="octicon octicon-link">
-              Projects</span></a>
+            <a href="#projects">
+              <span class="octicon octicon-link">Projects</span>
+            </a>
           </h3>
 
           <p>Our final project at DBC was <a target="_blank" href="http://artspace.herokuapp.com/">Artspace</a>, a web app that helps people rent single commercial spaces out hourly to practice their favorite art.</p>
           <p><a target="_blank" href="http://noughtsandcrosses.herokuapp.com/">Tic-Tac-Toe</a> is an interactive game that uses the mini-max algorithm for the computer AI logic, and sends Ajax requests for querying that logic.</p>
           <p>And another favorite is a CLI game called <a target="_blank" href="https://github.com/Carpk/cli_skein">Skein</a>, its a labyrinth style game where a monster chases you through a dungeon. A web based version of this game is also in the works.</p>
         </div>
+        <div class="col-sm-3"></div>
       </div>
     </div>
 
-    <div class="white_out standardized-background">
+    <div class="container-fluid sectioned">
       <a id="about"> </a>
       <div class="wrapper">
-        <div class='light_text'>
+        <div class='col-sm-3'></div>
+        <div class='col-sm-6'>
           <h3>
             <a name="about" class="anchor" href="#about">
               <span class="octicon octicon-link">About Me</span>
             </a>
           </h3>
-
           <p>
             I've always been fascinated of the possibilities that software has to offer people, how it can open up the potential for growth in someone. Want to learn a new language? How bout a new cooking recipe? Start a business? Any and everything is at a slight touch of your fingertips.
           </p>
-
           <p>
             I love all aspects of computing, from networking to writing code. So I moved to Chicago on a one way trip to attend Dev Bootcamp, which is a 9 week crash course on web development. I have a CompTIA A+ certification and I also have experience configuring Cisco enterprise routers and switches.
           </p>
         </div>
+        <div class='col-sm-3'></div>
       </div>
     </div>
 
-    <div class="white_out standardized-background img-parent">
+    <div class="container-fluid sectioned img-parent">
       <a id="contact"> </a>
       <div class="wrapper">
-        <div class='light_text'>
+        <div class='col-sm-3'></div>
+        <div class='col-sm-6'>
           <h3>
-            <a name="authors-and-contributors" class="anchor" href="#contact"><span class="octicon octicon-link">
-              Contact</span></a>
+            <a name="contact" class="anchor" href="#contact">
+              <span class="octicon octicon-link">Contact</span></a>
           </h3>
-
           <p>
             Feel free to send me an <a href="mailto:Contact@ShawnKlein.net">email</a> if you have any questions or just to say "Hi". You can also view a copy of my <a target="_blank" href="https://resume.creddle.io/resume/ciek2rbdexk" class="user-mention">resume</a>, follow me on <a target="_blank" href="https://twitter.com/ShawnKlein101">Twitter</a>, or visit my profile on <a target="_blank" href="http://www.linkedin.com/pub/shawn-klein/77/375/12" class="user-mention">Linkedin</a>. I also have the majority of my work on <a target="_blank" href="https://github.com/Carpk">Github</a>. And a blog is in the works, So come back soon!
           </p>
         </div>
+        <div class='col-sm-3'></div>
       </div>
+
         <img src="/images/ruby.jpg" class="ruby-img">
     </div>
 
