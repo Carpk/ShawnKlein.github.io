@@ -6582,22 +6582,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-.sectioned {
-  height: 100vh;
-}
-
-.wrapper {
-  margin-top: 25vh;
-}
-
-.img-parent {
-  position: relative;
-}
-
-.ruby-img {
-  position: absolute;
-  bottom: 3em;
-  left: 73%;
-  height: 8em;
-}
