@@ -1,129 +1,130 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Shawn Klein | Web Developer</title>
-    <link rel="stylesheet" href="stylesheets/bootstrap.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <link rel="stylesheet" href="stylesheets/custom.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/bootstrap.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
-    <meta name="keywords" content="Shawn Klein, Web Developer, Web Development, Chicago, Web, Website, Websites, Developer, Development, Software" lang="en" dir="ltr">
-    <meta name="description" content="Shawn Klein is a web developer located in Chicago. This site includes recent projects, social media links, and contact information." lang="en" dir="ltr">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Shawn Klein | Web Developer</title>
+  <link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <link rel="stylesheet" href="stylesheets/custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="javascripts/bootstrap.js"></script>
+  <script src="javascripts/smoothscroll.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if lt IE 8]>
+  <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+  <meta name="keywords" content="Shawn Klein, Web Developer, Web Development, Chicago, Web, Website, Websites, Developer, Development, Software" lang="en" dir="ltr">
+  <meta name="description" content="Shawn Klein is a web developer located in Chicago. This site includes recent projects, social media links, and contact information." lang="en" dir="ltr">
+</head>
+<body>
 
-    <div class="container-fluid">
+  <div class="container-fluid">
 
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#welcome">
-              <img class="" src="/images/sk_logo.png" height="48"></img>
-            </a>
-          </div>
-          <div>
-            <ul class="nav navbar-nav">
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand smoothScroll" href="#welcome">
+            <img class="" src="/images/sk_logo.png" height="48"></img>
+          </a>
         </div>
-      </nav>
-
-    </div>
-
-
-    <div class="container-fluid sectioned">
-      <a id="welcome"> </a>
-      <div class="wrapper">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-          <div id="title">
-            <h1>Shawn Klein</h1>
-            <hr>
-          </div>
-          <h3>
-            <a name="welcome" href="#welcome"><span class="octicon octicon-link">
-              Welcome</span></a>
-          </h3>
-          <p>
-            I'm a freelance Ruby on Rails web developer in the Chicago area. Feel free to <a href="mailto:Contact@ShawnKlein.net">contact me</a> for your next project.
-          </p>
+        <div>
+          <ul class="nav navbar-nav">
+            <li><a href="#projects" class="smoothScroll">Projects</a></li>
+            <li><a href="#about" class="smoothScroll">About</a></li>
+            <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          </ul>
         </div>
-        <div class="col-sm-3"></div>
       </div>
-    </div>
+    </nav>
 
-    <div class="container-fluid sectioned">
-      <a id="projects"> </a>
-      <div class="wrapper">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-          <h3>
-            <a href="#projects">
-              <span class="octicon octicon-link">Projects</span>
-            </a>
-          </h3>
+  </div>
 
-          <p><a target="_blank" href="http://noughtsandcrosses.herokuapp.com/">Tic-Tac-Toe</a> is an interactive game that use heuristic values for the computer AI logic. Ajax requests are made to the server where logic is written in Ruby.</p>
-          <p>A video playing application named <a target="_blank" href="http://captvideos.herokuapp.com/">Capt'n Videos</a> uses carrierwave direct for uploading videos, AWS S3 service for storing content, JWPlayer as the video player, Bootstrap for increased mobility, and Devise for user authenication.</p>
-          <p><a target="_blank" href="http://tatianasbakery.herokuapp.com/">Tatiana's Bakery</a> is a store front for a bakery business, where the site owner can create items for display allowing her clientel to view items for purchase. Application makes use of AWS S3 service for image hosting, and Angular for image cropping and uploading. This application is still in development.</p>
+
+  <div class="container-fluid sectioned">
+    <a id="welcome"> </a>
+    <div class="wrapper">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <div id="title">
+          <h1>Shawn Klein</h1>
+          <hr>
         </div>
-        <div class="col-sm-3"></div>
+        <h3>
+          <a name="welcome" href="#welcome"><span class="octicon octicon-link">
+            Welcome</span></a>
+        </h3>
+        <p>
+          I'm a freelance web developer in the Chicago area. Feel free to <a href="#contact">contact me</a> for your next project.
+        </p>
       </div>
+      <div class="col-sm-3"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid sectioned">
+    <a id="projects"> </a>
+    <div class="wrapper">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <h3>
+          <a href="#projects">
+            <span class="octicon octicon-link">Projects</span>
+          </a>
+        </h3>
+
+        <p><a target="_blank" href="http://noughtsandcrosses.herokuapp.com/">Tic-Tac-Toe</a> is an interactive game that use heuristic values for the computer AI logic. Ajax requests are made to the server where logic is written in Ruby.</p>
+        <p>A video playing application named <a target="_blank" href="http://captvideos.herokuapp.com/">Capt'n Videos</a> uses carrierwave direct for uploading videos, AWS S3 service for storing content, JWPlayer as the video player, Bootstrap for increased mobility, and Devise for user authenication.</p>
+        <p><a target="_blank" href="http://tatianasbakery.herokuapp.com/">Tatiana's Bakery</a> is a store front for a bakery business, where the site owner can create items for display allowing her clientel to view items for purchase. Application makes use of AWS S3 service for image hosting, and Angular for image cropping and uploading. This application is still in development.</p>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid sectioned">
+    <a id="about"> </a>
+    <div class="wrapper">
+      <div class='col-sm-3'></div>
+      <div class='col-sm-6'>
+        <h3>
+          <a name="about" class="anchor" href="#about">
+            <span class="octicon octicon-link">About Me</span>
+          </a>
+        </h3>
+        <p>
+          I've always been fascinated of the possibilities that software has to offer people, how it can open up opportunities for someone. Want to learn a new language? How bout a new cooking recipe? Start a business? Any and everything is possible with web development.
+        </p>
+        <p>
+          I love all aspects of computing, from networking to writing code. I moved to Chicago on a one way trip to attend Dev Bootcamp, which is a 9 week crash course on web development. I have a CompTIA A+ certification, experienced in configuring Cisco enterprise routers, and am a Linux fanboy.
+        </p>
+      </div>
+      <div class='col-sm-3'></div>
+    </div>
+  </div>
+
+  <div class="container-fluid sectioned img-parent">
+    <a id="contact"> </a>
+    <div class="wrapper">
+      <div class='col-sm-3'></div>
+      <div class='col-sm-6'>
+        <h3>
+          <a name="contact" class="anchor" href="#contact">
+            <span class="octicon octicon-link">Contact</span></a>
+        </h3>
+        <p>
+          Send me an email to <a href="mailto:Contact@ShawnKlein.net">Contact@ShawnKlein.net</a> for your next project. You can also view a copy of my <a target="_blank" href="https://resume.creddle.io/resume/ciek2rbdexk" class="user-mention">resume</a>, follow me on <a target="_blank" href="https://twitter.com/ShawnKlein202">Twitter</a>, or visit my profile on <a target="_blank" href="http://www.linkedin.com/pub/shawn-klein/77/375/12" class="user-mention">Linkedin</a>. I also have the majority of my work on <a target="_blank" href="https://github.com/Carpk">Github</a>. And a blog is in the works, So come back soon!
+        </p>
+      </div>
+      <div class='col-sm-3'></div>
     </div>
 
-    <div class="container-fluid sectioned">
-      <a id="about"> </a>
-      <div class="wrapper">
-        <div class='col-sm-3'></div>
-        <div class='col-sm-6'>
-          <h3>
-            <a name="about" class="anchor" href="#about">
-              <span class="octicon octicon-link">About Me</span>
-            </a>
-          </h3>
-          <p>
-            I've always been fascinated of the possibilities that software has to offer people, how it can open up the potential for growth in someone. Want to learn a new language? How bout a new cooking recipe? Start a business? Any and everything is possible with a slight touch of your fingertips.
-          </p>
-          <p>
-            I love all aspects of computing, from networking to writing code. So I moved to Chicago on a one way trip to attend Dev Bootcamp, which is a 9 week crash course on web development. I have a CompTIA A+ certification and I also have experience configuring Cisco enterprise routers and switches.
-          </p>
-        </div>
-        <div class='col-sm-3'></div>
-      </div>
-    </div>
+      <img src="/images/ruby.jpg" class="ruby-img">
+  </div>
 
-    <div class="container-fluid sectioned img-parent">
-      <a id="contact"> </a>
-      <div class="wrapper">
-        <div class='col-sm-3'></div>
-        <div class='col-sm-6'>
-          <h3>
-            <a name="contact" class="anchor" href="#contact">
-              <span class="octicon octicon-link">Contact</span></a>
-          </h3>
-          <p>
-            Feel free to send me an <a href="mailto:Contact@ShawnKlein.net">email</a> if you have any questions or just to say "Hi". You can also view a copy of my <a target="_blank" href="https://resume.creddle.io/resume/ciek2rbdexk" class="user-mention">resume</a>, follow me on <a target="_blank" href="https://twitter.com/ShawnKlein202">Twitter</a>, or visit my profile on <a target="_blank" href="http://www.linkedin.com/pub/shawn-klein/77/375/12" class="user-mention">Linkedin</a>. I also have the majority of my work on <a target="_blank" href="https://github.com/Carpk">Github</a>. And a blog is in the works, So come back soon!
-          </p>
-        </div>
-        <div class='col-sm-3'></div>
-      </div>
+  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
-        <img src="/images/ruby.jpg" class="ruby-img">
-    </div>
-
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
-  </body>
+</body>
 </html>
